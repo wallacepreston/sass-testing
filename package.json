@@ -1,16 +1,32 @@
 {
-  "name": "",
+  "name": "sass-testing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "jest": {
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html",
+    "test": "jest --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "jest": "29.3.1",
+    "node-sass": "8.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "1.56.1",
+    "sass-true": "6.1.0"
+  }
 }

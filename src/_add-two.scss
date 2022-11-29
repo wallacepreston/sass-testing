@@ -1,0 +1,26 @@
+/// This function is to be used to return nested key values within a nested map
+/// @group utility
+/// @parameter {Variable} $map [null] - pass in map to be evaluated
+/// @parameter {Variable} $keys [null] - pass in keys to be evaluated
+/// @link https://css-tricks.com/snippets/sass/deep-getset-maps/ Article from CSS-Tricks
+/// @example scss - pass map and strings/variables into function
+///   $map: (
+///     'size': (
+///       'sml': 10px
+///     )
+///   );
+///   $var: map-deep-get($tokens, 'size', 'sml'); => 10px
+///
+/// 
+@use "sass:color";
+@debug "something ";
+@debug color color.adjust(#000, $red: 255, $green: 255, $blue: 255);
+ 
+@function add-two($num1, $num2) {
+  @return $num1 + $num2;
+}
+
+.color {
+  background-color: #6b717f;
+  color: #cfd5e3
+}

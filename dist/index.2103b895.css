@@ -1,0 +1,56 @@
+html {
+  font-family: Rubik, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 48px;
+  display: flex;
+}
+
+.container > * {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.color {
+  color: #cfd5e3;
+  color: #cfd5e3;
+  background-color: #6b717f;
+}
+
+.first {
+  color: #000;
+}
+
+.second {
+  color: red;
+}
+
+.grey {
+  width: 200px;
+  height: 200px;
+  background: #ffd3d3;
+  border-radius: 50%;
+}
+
+.green {
+  width: 200px;
+  height: 200px;
+  background: #ff8b57;
+  border-radius: 50%;
+}
+
+.blue {
+  width: 200px;
+  height: 200px;
+  background: #f0f;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=index.2103b895.css.map */

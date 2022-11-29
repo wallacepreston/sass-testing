@@ -1,0 +1,10 @@
+@import 'true';
+@import '../src/add-two';
+
+@include describe('add-two()') {
+  @include it('should return the sum of the two numbers') {
+    @include assert-equal(
+      add-two(10, 25), 35
+    );
+  }
+}

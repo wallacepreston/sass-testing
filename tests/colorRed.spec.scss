@@ -1,0 +1,10 @@
+@import 'true';
+@import '../src/colorize-red';
+
+@include describe('colorize-red()') {
+  @include it('should return the sum of the two numbers') {
+    @include assert-equal(
+      colorize-red(#000, 255), #FF0000
+    );
+  }
+}

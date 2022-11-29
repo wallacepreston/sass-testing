@@ -1,0 +1,39 @@
+/* === import === */
+@import 'base'; // this line imports the file src/_base.scss
+@import 'add-two';
+@import 'colorize-red';
+
+/* === mixin === */
+
+/* 👇 write mixin here 👇 */
+
+@mixin circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+/* === function === */
+
+/* 👇 write function here 👇 */
+
+
+
+
+/*  === classes === */
+
+/* 👇 write circle classes here 👇 */
+
+.grey {
+  @include circle;
+  background: colorize-red(lightgray, 255);
+}
+.green {
+  @include circle;
+  background: colorize-red(seagreen, 255);
+}
+.blue {
+  @include circle;
+  background: colorize-red(blue, 255);
+}

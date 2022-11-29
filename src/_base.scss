@@ -1,0 +1,19 @@
+html {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > * {
+  margin: 1rem;
+  padding: 1rem;
+}
